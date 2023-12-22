@@ -68,3 +68,42 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Component we are using
+1. Home
+2. Bollywood
+3. Hollywood
+4. Fitness
+5. Technology
+6. Food
+
+
+## Concept we are using
+1. Components Switch - Routes
+2. Data Store and Provide - Context Api
+
+
+# Route
+1. BrowserRouter
+2. Routes
+3. Route - Path,Element
+4. NavLink - to
+
+# ContextApi
+1. CreateContext - to create store
+2. Provider
+3. UseContext Hooks - Accept the store Data
+
+# Text css property
+text-transform : 'capitalize';
+text-align : 'right';
+
+
+
+# to hide navlink in mobile view
+height : 0;
+display : none;
+
+# add humberger menu
+give a class name in humberger menu div

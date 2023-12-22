@@ -1,23 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import RouteCompo from './Compo/Route/RouteCompo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div id='siren'><span id='rotate'>The</span><span id='sirentext'>Siren</span></div>
+      <RouteCompo/>
     </div>
   );
 }
