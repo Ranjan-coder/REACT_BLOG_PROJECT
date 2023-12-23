@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Home from './Home'
 import Bollywood from './Bollywood'
 import Hollywood from './Hollywood'
@@ -8,7 +8,6 @@ import Food from './Food'
 import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom';
 import DataCompo from '../Store/Store'
 import DynamicCompo from './DynamicCompo'
-import { push as Menu } from 'react-burger-menu';
 import HamburgerMenuCmp from './HamBurgerMenu'
 
 const RouteCompo = () => {

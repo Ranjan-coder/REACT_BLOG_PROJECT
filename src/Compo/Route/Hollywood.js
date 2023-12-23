@@ -20,13 +20,13 @@ const Hollywood = () => {
                   <div className='childc1'>
                   <NavLink to={`/dynamic/${item.id}`}>
                     {/* <h2>{item.heading}</h2> */}
-                    <img className='imageheight' src={item.image} alt='image not found' />
+                    <img className='imageheight' src={item.image} alt='not found' />
                   </NavLink>
                   </div>
 
                   <div className='childc2'>
                   <NavLink to={`/dynamic/${item.id}`}>
-                    <h2>{item.heading}</h2>
+                    <h2 className='itemheading'>{item.heading}</h2>
                     {/* <img className='imageheight' src={item.image} alt='image not found' /> */}
                   </NavLink>
                   <p>{item.description.slice(0,150)}...</p>
@@ -45,8 +45,8 @@ const Hollywood = () => {
               <>
                 <div>
                   <NavLink to={`/dynamic/${item.id}`}>
-                    <h2>{item.heading}</h2>
-                    <img className='imageheight' src={item.image} alt='image not found' />
+                    <h2 className='itemheading'>{item.heading}</h2>
+                    <img className='imageheight' src={item.image} alt='not found' />
                   </NavLink>
                   <p>{item.description.slice(0,150)}...</p>
                 </div>
@@ -55,7 +55,7 @@ const Hollywood = () => {
             )
           })}
           <div className='advertisement'>
-            <img className='advertimg' src='https://i.pinimg.com/564x/1c/de/7f/1cde7fa7ad3a53a9393982ab7abd8701.jpg'/>
+            <img className='advertimg' src='https://i.pinimg.com/564x/1c/de/7f/1cde7fa7ad3a53a9393982ab7abd8701.jpg' alt='ad'/>
           </div>
         </div>
       </div>

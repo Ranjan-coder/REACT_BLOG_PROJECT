@@ -19,15 +19,13 @@ const Technology = () => {
                 <div className='parentcontent'>
                   <div className='childc1'>
                   <NavLink to={`/dynamic/${item.id}`}>
-                    {/* <h2>{item.heading}</h2> */}
-                    <img className='imageheight' src={item.image} alt='image not found' />
+                    <img className='imageheight' src={item.image} alt='not found' />
                   </NavLink>
                   </div>
 
                   <div className='childc2'>
                   <NavLink to={`/dynamic/${item.id}`}>
                     <h2>{item.heading}</h2>
-                    {/* <img className='imageheight' src={item.image} alt='image not found' /> */}
                   </NavLink>
                   <p>{item.description.slice(0,150)}...</p>
                   </div>
@@ -46,7 +44,7 @@ const Technology = () => {
                 <div>
                   <NavLink to={`/dynamic/${item.id}`}>
                     <h2>{item.heading}</h2>
-                    <img className='imageheight' src={item.image} alt='image not found' />
+                    <img className='imageheight' src={item.image} alt='not found' />
                   </NavLink>
                   <p>{item.description.slice(0,150)}...</p>
                 </div>
@@ -55,7 +53,7 @@ const Technology = () => {
             )
           })}
           <div className='advertisement'>
-            <img className='advertimg' src='https://i.pinimg.com/474x/3b/ae/85/3bae85eee64f1b947a1c91f37dfd333b.jpg'/>
+            <img className='advertimg' src='https://i.pinimg.com/474x/3b/ae/85/3bae85eee64f1b947a1c91f37dfd333b.jpg' alt='ad'/>
           </div>
         </div>
       </div>

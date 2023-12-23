@@ -20,13 +20,13 @@ const Food = () => {
                   <div className='childc1'>
                   <NavLink to={`/dynamic/${item.id}`}>
                     {/* <h2>{item.heading}</h2> */}
-                    <img className='imageheight' src={item.image} alt='image not found' />
+                    <img className='imageheight' src={item.image} alt='not found' />
                   </NavLink>
                   </div>
 
                   <div className='childc2'>
                   <NavLink to={`/dynamic/${item.id}`}>
-                    <h2>{item.heading}</h2>
+                    <h2 className='itemheading'>{item.heading}</h2>
                     {/* <img className='imageheight' src={item.image} alt='image not found' /> */}
                   </NavLink>
                   <p>{item.description.slice(0,150)}...</p>
@@ -45,8 +45,8 @@ const Food = () => {
               <>
                 <div>
                   <NavLink to={`/dynamic/${item.id}`}>
-                    <h2>{item.heading}</h2>
-                    <img className='imageheight' src={item.image} alt='image not found' />
+                    <h2 className='itemheading'>{item.heading}</h2>
+                    <img className='imageheight' src={item.image} alt='not found' />
                   </NavLink>
                   <p>{item.description.slice(0,150)}...</p>
                 </div>
@@ -55,7 +55,7 @@ const Food = () => {
             )
           })}
           <div className='advertisement'>
-          <img className='advertimg' src='https://images.template.net/wp-content/uploads/2016/05/12063326/Smooth-the-Fruit-Ad-Poster-Download.jpg'/>
+          <img className='advertimg' src='https://images.template.net/wp-content/uploads/2016/05/12063326/Smooth-the-Fruit-Ad-Poster-Download.jpg' alt='ad'/>
           </div>
         </div>
       </div>

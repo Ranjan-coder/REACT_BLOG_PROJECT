@@ -14,13 +14,6 @@ const DataCompo = (props) => {
       description : 'Leo (also marketed as Leo: Bloody Sweet) is a 2023 Indian Tamil-language action thriller film directed by Lokesh Kanagaraj and produced by Seven Screen Studio. The film stars Vijay in the titular role, alongside Sanjay Dutt, Arjun Sarja, Trisha, Gautham Vasudev Menon, Mysskin, Madonna Sebastian, George Maryan, Mansoor Ali Khan, Priya Anand and Mathew Thomas. It is the third installment in the Lokesh Cinematic Universe and is inspired by A History of Violence (2005), an adaptation of the graphic novel of the same name. The film follows Parthi, a café owner and animal rescuer in Theog, who is pursued by gangsters Antony and Harold Das who suspect him to be Antonys estranged son, Leo.'
     },
     {
-      id: 51,
-      image : 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSmoZIoFgIkKCledRzZT3q3xy64ZwMfnVXSQUdfp7cSo1suHPye',
-      heading : 'PATHAN',
-      catagory : 'bollywood',
-      description : 'Pathaan (pronounced [pəʈʰaːn]) is a 2023 Indian Hindi-language action thriller film co-written and directed by Siddharth Anand and produced by Aditya Chopra under Yash Raj Films. The fourth installment in the YRF Spy Universe, it stars Shah Rukh Khan in the title role, alongside Deepika Padukone and John Abraham, with Dimple Kapadia and Ashutosh Rana in supporting roles. Pathaan, an exiled RAW agent, works with ISI agent Rubina Mohsin to take down Jim, a former RAW agent, who plans to attack India with a deadly virus.'
-    },
-    {
       id : 2,
       image : 'https://m.media-amazon.com/images/M/MV5BMTJhYjI1N2ItM2E4MC00ZmYzLTk2YzYtNTE5YTM1MDU0NjRiXkEyXkFqcGdeQXVyMTMxNjYyMTgw._V1_.jpg',
       heading : 'HEART OF STONE',
@@ -79,16 +72,17 @@ const DataCompo = (props) => {
     {
       id: 17,
       image : 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQLZDBHPEaovdZZuiARkbAdhBH4Pu3DzbJujt7x4hT1i5BI9trr',
+      heading : 'BIGIL',
       catagory : 'bollywood',
       description : "Bigil (transl. Whistle) is a 2019 Indian Tamil-language sports action drama film directed by Atlee and produced by Kalpathi S. Aghoram under the banner AGS Entertainment.[4][5] The film stars Vijay in the title role and dual roles as a father and son, while Nayanthara, Jackie Shroff, Vivek and Kathir appear in other prominent roles.[6] In the film, Michael Rayyapan alias Bigil is a footballer-turned-gangster who decides to coach a women's football team when their coach gets attacked.",
     },
-    {
-      id : 10,
-      image : 'https://m.media-amazon.com/images/M/MV5BMzA2ZTgxNzgtYjM3Ni00NTI1LWJiMjAtMWViNWUzNzIwYTgwXkEyXkFqcGdeQXVyMTMxODA4Njgx._V1_.jpg',
-      heading : 'JIGAR THANDA',
-      catagory : 'bollywood',
-      description : "Jigarthanda DoubleX (also known as Jigarthanda 2) is a 2023 Indian Tamil-language Western action comedy film directed by Karthik Subbaraj and jointly produced by him, Kaarthekeyen Santhanam, S. Kathiresan and Alankar Pandian under Stone Bench Films, Five Star Creations and Invenio Origin. The film is a spiritual successor and prequel to Jigarthanda (2014) and stars Raghava Lawrence, S. J. Suryah and Nimisha Sajayan. Set in the 1970s, it revolves around an upcoming cop going undercover as a filmmaker, trying to kill a gangster by collaborating to make a film."
-    },
+    // {
+    //   id : 10,
+    //   image : 'https://m.media-amazon.com/images/M/MV5BMzA2ZTgxNzgtYjM3Ni00NTI1LWJiMjAtMWViNWUzNzIwYTgwXkEyXkFqcGdeQXVyMTMxODA4Njgx._V1_.jpg',
+    //   heading : 'JIGAR THANDA',
+    //   catagory : 'bollywood',
+    //   description : "Jigarthanda DoubleX (also known as Jigarthanda 2) is a 2023 Indian Tamil-language Western action comedy film directed by Karthik Subbaraj and jointly produced by him, Kaarthekeyen Santhanam, S. Kathiresan and Alankar Pandian under Stone Bench Films, Five Star Creations and Invenio Origin. The film is a spiritual successor and prequel to Jigarthanda (2014) and stars Raghava Lawrence, S. J. Suryah and Nimisha Sajayan. Set in the 1970s, it revolves around an upcoming cop going undercover as a filmmaker, trying to kill a gangster by collaborating to make a film."
+    // },
     {
       id : 11,
       image : 'https://englishtribuneimages.blob.core.windows.net/gallary-content/2023/9/2023_9$largeimg_843682942.jpg',
@@ -258,13 +252,13 @@ const DataCompo = (props) => {
       heading : 'AGENT',
       description : "Agent is an 2023 Indian Telugu-language action spy film directed by Surender Reddy and written by Vakkantham Vamsi. It stars Akhil Akkineni, Mammootty, Dino Morea, Sakshi Vaidya and Vikramjeet Virk. The film marks the debut of Vaidya and Morea in Telugu cinema.[5]The film was announced in September 2020. Filming took place in Hyderabad, Budapest, Visakhapatnam and Manali. The release was deferred multiple times due to the COVID-19 pandemic and production delays."
     },
-    {
-      id : 36,
-      image : 'https://upload.wikimedia.org/wikipedia/en/5/50/Chatrapathi_film_poster.jpg',
-      catagory : 'bollywood',
-      heading : 'CHATRAPATHI',
-      description : "Chatrapathi is a 2023 Indian Hindi-language action film directed by V. V. Vinayak and produced by Jayantilal Gada of Pen India Limited.[2] It is a remake of the 2005 Telugu film of the same name.[3] The film stars Bellamkonda Sreenivas in his Hindi film debut playing the titular role[4][5] with Nushrat Bharucha, Bhagyashree, Sharad Kelkar, Freddy Daruwala, Karan Singh Chhabra, Rajendra Gupta and Rajesh Sharma play supporting roles.[1][2]Chatrapathi was released on 12 May 2023.[1]"
-    },
+    // {
+    //   id : 36,
+    //   image : 'https://upload.wikimedia.org/wikipedia/en/5/50/Chatrapathi_film_poster.jpg',
+    //   catagory : 'bollywood',
+    //   heading : 'CHATRAPATHI',
+    //   description : "Chatrapathi is a 2023 Indian Hindi-language action film directed by V. V. Vinayak and produced by Jayantilal Gada of Pen India Limited.[2] It is a remake of the 2005 Telugu film of the same name.[3] The film stars Bellamkonda Sreenivas in his Hindi film debut playing the titular role[4][5] with Nushrat Bharucha, Bhagyashree, Sharad Kelkar, Freddy Daruwala, Karan Singh Chhabra, Rajendra Gupta and Rajesh Sharma play supporting roles.[1][2]Chatrapathi was released on 12 May 2023.[1]"
+    // },
     {
       id : 37,
       image : 'https://upload.wikimedia.org/wikipedia/en/b/b4/Spider-Man-_Across_the_Spider-Verse_poster.jpg',
@@ -362,7 +356,62 @@ const DataCompo = (props) => {
       catagory : 'fitness',
       heading : 'CLIMB',
       description : "Supine to standing rope climb – Hang a rope from a pull up bar and lie on your back on the ground, straddling the rope. Climb up the rope, using the feet to come to a standing position. Then climb down the rope and return to a supine position.Rope climbing works most of your muscle groups, including your grip strength, biceps, forearms, lats and lower back (entire back), chest, and core. If you are using your legs too, all of your leg muscles are being activated as well."
-    }
+    },
+      // latest top post
+    {
+      id : 52,
+      image : 'https://m.media-amazon.com/images/M/MV5BYWYwMWU2N2QtMjExOC00OWY1LTllYzEtYWZjYzZlY2IwMzVhXkEyXkFqcGdeQXVyNjE0ODgwMDA@._V1_.jpg',
+      catagory : 'bollywoodt',
+      heading : 'SALAAR',
+      description : "Salaar: Part 1 – Ceasefire is a 2023 Indian Telugu-language action film written and directed by Prashanth Neel and produced by Vijay Kiragandur.[4] The film features Prabhas and Prithviraj Sukumaran in the lead roles, along with an ensemble supporting cast that includes Shruti Haasan, Jagapathi Babu, Bobby Simha, Tinnu Anand, Easwari Rao, Sriya Reddy and Ramachandra Raju. The film's initial story was pitched from Neel's debut film Ugramm and is the maiden part of a two-part film. The film follows Devaratha 'Deva' who helps his childhood friend Vardharaja 'Vardha' become the undisputed successor of Khansar after Vardha's father Raja Mannar's ministers and advisors plan a coup d'état to kill them by hiring armies to attack Vardha and Khansar.",
+      topost : 'firsttop'
+    },
+    {
+      id : 53,
+      image : 'https://miro.medium.com/v2/resize:fit:1400/1*-r7A6-fpbV_m-U71Mdk42Q.jpeg',
+      catagory : 'fitnesst',
+      heading : 'FITNESS WATCH',
+      description : 'Smartwatches are the one that knocks out the latest and challenges new inbuilt features. For the upgraded version at a reasonable price. When you are snooping around for a fitness smartwatch you may be puzzled. Because the first thing that will attract your attention is the several options available in the market. It counts on what you are searching forward to. If you want a standard watch that just shows you the time, then you are focusing your selection mostly on style. Nevertheless, if you have to select between a smartwatch or a fitness tracker then you are focused on what extraordinary features you may be provided within health as well as technology-wise. However, if you are a fitness canny then Zest Pro Smartwatch is your solid all-rounder stop. As they are the blend of both a fitness tracker and a smartwatch with incredible characteristics. They offer amazing features, functionality plus attractive build-up at an affordable price.',
+      topost : 'firsttop'
+    },
+
+   
+    
+    {
+      id: 90,
+      image : 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSmoZIoFgIkKCledRzZT3q3xy64ZwMfnVXSQUdfp7cSo1suHPye',
+      heading : 'PATHAN',
+      catagory : 'bollywoodt',
+      description : 'Pathaan (pronounced [pəʈʰaːn]) is a 2023 Indian Hindi-language action thriller film co-written and directed by Siddharth Anand and produced by Aditya Chopra under Yash Raj Films. The fourth installment in the YRF Spy Universe, it stars Shah Rukh Khan in the title role, alongside Deepika Padukone and John Abraham, with Dimple Kapadia and Ashutosh Rana in supporting roles. Pathaan, an exiled RAW agent, works with ISI agent Rubina Mohsin to take down Jim, a former RAW agent, who plans to attack India with a deadly virus.'
+    },
+    {
+      id : 91,
+      image : 'https://m.media-amazon.com/images/M/MV5BYjI5NjFlMGItMWY1NC00YjY3LTgzMmUtYmY5NjBiZGMyNTc1XkEyXkFqcGdeQXVyNTgxODY5ODI@._V1_.jpg',
+      catagory : 'bollywoodt',
+      heading : 'DEVIL',
+      description : 'Devil is a 2023 Indian movie that is also known as Devil: The British Secret Agent. It is about a British spy agent who is on a mission to solve a mystery involving love, betrayal, and deceit. The movie is directed by Abhishek Nama and written by Srikanth Vissa. It is set to be released on December 29, 2023.'
+    },
+    {
+      id : 92,
+      image : 'https://m.media-amazon.com/images/M/MV5BYTk3MGEyOWEtMjFjZC00YzZhLWI5ZWQtMjE3NmE1ZGI3M2E3XkEyXkFqcGdeQXVyNTkzNDQ4ODc@._V1_FMjpg_UX1000_.jpg',
+      catagory : 'bollywoodt',
+      heading : 'THE GREAT INDIAN FAMILY',
+      description : 'The Great Indian Family is a 2023 Indian Hindi-language comedy drama film written and directed by Vijay Krishna Acharya and produced by Aditya Chopra under the banner of Yash Raj Films.[4][5] It stars Vicky Kaushal as a religious, Hindu Pandit who is revealed to be Muslim by birth. Manushi Chhillar, Manoj Pahwa, and Kumud Mishra appear in supporting roles.[6][7]Principal photography began on 20 November 2020 and ended on 25 February 2021. It was released theatrically on 22 September 2023.[8]'
+    },
+    {
+      id : 93,
+      image : '',
+      catagory : '',
+      heading : '',
+      description : ''
+    },
+    {
+      id : 94,
+      image : '',
+      catagory : '',
+      heading : '',
+      description : ''
+    },
 
 
   ])

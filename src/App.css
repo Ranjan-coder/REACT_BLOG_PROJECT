@@ -1,6 +1,9 @@
 *{
   box-sizing: border-box;
 }
+body{
+  background-color: #000435;
+}
 #siren{
   display: flex;
   justify-content: center;
@@ -8,15 +11,20 @@
   height: 45px;
 }
 #rotate{
-  transform: rotate(269deg);
-  font-weight: 100px;
+  transform: rotate(-90deg);
+  font-size: 15px;
+  font-weight: 90px;
+  color: aliceblue;
 }
 #sirentext{
-  font-size: x-large;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: #32a852;
 }
 .toppost{
   font-size: larger;
   font-weight: 500;
+  color: aliceblue;
 }
 .hrline{
   height: 2px;
@@ -27,15 +35,21 @@
 }
 .advertisement{
   margin-top: 10px;
-  height: 400px;
-  width: 300px;
+  height: 500px;
+  width: 450px;
   margin: auto;
   /* background-color: #f4afe5; */
 
 }
 .advertimg{
-  height: 400px;
-  width: 300px;
+  height: 500px;
+  width: 450px;
+
+}
+.advertimg2{
+  width: 450px;
+  height: 315px;
+
 }
 /* hr{
   font-weight: 10;
@@ -67,8 +81,8 @@ a{
   border-radius: 15px;
 }
 .imageheight{
-  height: 200px;
-  width: 200px;
+  width: 308px;
+  height: 184px;
 }
 /* img{
   object-fit: cover;
@@ -94,11 +108,13 @@ a{
 }
 .parentside{
   display: flex;
-  gap: 25px;
+  justify-content: space-evenly;
 }
 .parentcontent{
+  margin: 5px;
   display: flex;
   gap: 10px;
+  border-bottom: 1px solid gray;
 }
 .headingcnt{
   font-size: x-large;
@@ -106,6 +122,33 @@ a{
 .bm-menu-wrap, .bm-overlay,.bm-burger-button{
   display: none;
 
+}
+.itemheading{
+  margin: 0;
+  color: aliceblue;
+  padding: 0;
+  /* width: ; */
+  box-sizing: border-box;
+}
+.itemheading:hover{
+  color: red;
+}
+.itemdesc{
+  color: yellow;
+}
+.leftchild,.rightchild{
+  width: 50%;
+}
+.tphw{
+  width: 452px;
+  height: 266px;
+}
+.tphwsmall{
+  width: 101px;
+  height: 104px;
+}
+.smalltopost{
+  display: flex;
 }
 
 
