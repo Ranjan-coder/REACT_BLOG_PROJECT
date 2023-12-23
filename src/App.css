@@ -21,10 +21,17 @@ body{
   font-weight: bolder;
   color: #32a852;
 }
-.toppost{
+.toppost {
   font-size: larger;
   font-weight: 500;
   color: aliceblue;
+  margin: 10px 0px;
+}
+.homelatest{
+  /* margin-left: 50px; */
+  position: relative;
+  left: 15vh;
+  
 }
 .hrline{
   height: 2px;
@@ -41,6 +48,13 @@ body{
   /* background-color: #f4afe5; */
 
 }
+.homeadvertisement, .homeadvertimg{
+  /* margin-top: 10px; */
+  height: 105vh;
+  width: 450px;
+  /* margin: auto; */
+}
+
 .advertimg{
   height: 500px;
   width: 450px;
@@ -70,16 +84,6 @@ body{
 a{
   text-decoration: none;
 }
-#homeparent{
-  display: flex;
-  height: 400px;
-  border: 2px solid red;
-  grid-template-columns: 60% 20%;
-  grid-template-rows: 50% 50%;
-  gap: 10px;
-  justify-content: center;
-  border-radius: 15px;
-}
 #hrightimg{
   display: flex;
   justify-content: center;
@@ -89,19 +93,48 @@ a{
   height: 184px;
   border-radius: 15px;
 }
-/* img{
-  object-fit: cover;
-} */
-#imghs1{
-  height: 100%;
-background-color: #fff;
+
+/* home top image  */
+
+
+#homeparent{
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  gap: 5px;
+  margin-top: 5vh;
 }
-#imghs2{
-background-color: #f0abab;
+#lefthome{
+  height: 400px;
+  width: 550px;
+
 }
-#imghs3{
-background-color: #9ef4cf;
+#righthome{
+  height: 400px;
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
+
+#homeleftimg{
+  height: 400px;
+  width: 550px;
+  border-radius: 15px;
+}
+.homerightimg{
+  height: 195px;
+  width: 550px;
+  border-radius: 15px;
+}
+#homedata{
+  display: flex;
+  justify-content: space-evenly;
+}
+.descriptionwidth{
+  width: 308px;
+}
+
 .parentside{
   display: flex;
   justify-content: space-evenly;
@@ -134,6 +167,7 @@ background-color: #9ef4cf;
 }
 .itemdesc{
   color: yellow;
+
 }
 .leftchild,.rightchild{
   width: 50%;
@@ -149,6 +183,9 @@ background-color: #9ef4cf;
 .smalltopost{
   display: flex;
 }
+
+/* dynamic component  */
+
 #dynmbgc{
   background-color: #fff;
   border-radius: 15px;
@@ -187,8 +224,55 @@ background-color: #9ef4cf;
 
 }
 
+/* footer component  */
 
+.footerbgc{
+  background-color: #fff;
+  border: 5px solid #077596;
+}
+.fa-twitter {
+  color: #1da1f2; /* Twitter color */
+}
 
+.fa-facebook {
+  color: #1877f2; /* Facebook color */
+}
+
+.fa-instagram {
+  color: #c13584; /* Instagram color */
+}
+
+.fa-youtube {
+  color: #ff0000; /* YouTube color */
+}
+
+.fa-whatsapp {
+  color: #25d366; /* WhatsApp color */
+}
+#socialicons{
+  display: flex;
+  gap: 10px;
+  position: relative;
+  top: 10px;
+  left: 200vh;
+}
+.rotatecolor{
+  color: #2f046f;
+  transform: rotate(-90deg);
+  font-weight: 900;
+}
+.footercontent{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.footercontent2{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 10vh;
+}
 
 
 

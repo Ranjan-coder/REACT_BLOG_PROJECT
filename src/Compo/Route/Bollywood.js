@@ -78,9 +78,7 @@ const Bollywood = () => {
             <img className='advertimg' src='https://i.pinimg.com/736x/12/ff/fd/12fffdd0d71dd1151eec5751177ff662.jpg' alt='ad' />
           <img className='advertimg2' src='https://dr-vfx.com/wp-content/uploads/2022/09/How-to-make-a-product-video-like-apple.jpg' alt='not found'/>
           </div>
-          {/* <div>
 
-          </div> */}
         </div>
       </div>
     </>
