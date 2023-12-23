@@ -12,7 +12,7 @@ const Fitness = () => {
 
 <div className='parentside'>
         <div className='leftchild'>
-          <div className='toppost'>Bollywood</div>
+          <div className='toppost'>Fitness</div>
           <div className='hrline'></div>
           {data.filter((e) => e.catagory === 'fitness').map((item, index) => {
             return (
@@ -61,7 +61,7 @@ const Fitness = () => {
           </div>
 
           <div>
-            {data.filter((e) => e.catagory === 'bollywoodt' && ((e.id >= 90) && (e.id <= 94))).map((item, index) => {
+            {data.filter((e) => e.catagory === 'fitnesst' && ((e.id >= 93) && (e.id <= 95))).map((item, index) => {
               return (
                 <>
                   <div className='smalltopost'>
@@ -79,61 +79,12 @@ const Fitness = () => {
           </div>
           <div className='advertisement'>
             <img className='advertimg' src='https://i.pinimg.com/736x/12/ff/fd/12fffdd0d71dd1151eec5751177ff662.jpg' alt='ad' />
-          <img className='advertimg2' src='https://dr-vfx.com/wp-content/uploads/2022/09/How-to-make-a-product-video-like-apple.jpg' alt='not found'/>
+          <img className='advertimg2' src='https://d1csarkz8obe9u.cloudfront.net/posterpreviews/body-fitness-ads-design-template-0672a5d0a49041429382011de16487bb_screen.jpg?ts=1646038308' alt='not found'/>
           </div>
-          {/* <div>
 
-          </div> */}
         </div>
       </div>
-      {/* <div className='parentside'>
-        <div>
-          <div className='toppost'>Fitness</div>
-          <div className='hrline'></div>
-          {data.filter((e) => e.catagory === 'fitness').map((item, index) => {
-            return (
-              <>
-                <div className='parentcontent'>
-                  <div className='childc1'>
-                  <NavLink to={`/dynamic/${item.id}`}>
-                    <img className='imageheight' src={item.image} alt='not found' />
-                  </NavLink>
-                  </div>
-
-                  <div className='childc2'>
-                  <NavLink to={`/dynamic/${item.id}`}>
-                    <h2 className='itemheading'>{item.heading}</h2>
-                  </NavLink>
-                  <p>{item.description.slice(0,150)}...</p>
-                  </div>
-                </div>
-                <hr />
-              </>
-            )
-          })}
-        </div>
-        <div>
-          <div className='toppost'>Top Posts</div>
-          <div className='hrline'></div>
-          {data.filter((e) => e.catagory === 'fitness').map((item, index) => {
-            return (
-              <>
-                <div>
-                  <NavLink to={`/dynamic/${item.id}`}>
-                    <h2 className='itemheading'>{item.heading}</h2>
-                    <img className='imageheight' src={item.image} alt='not found' />
-                  </NavLink>
-                  <p>{item.description.slice(0,150)}...</p>
-                </div>
-                <hr />
-              </>
-            )
-          })}
-          <div className='advertisement'>
-            <img className='advertimg' src='https://i.pinimg.com/236x/a5/95/2d/a5952d8a2b151a81938ac4aa6db046f8.jpg' alt='ad'/>
-          </div>
-        </div>
-      </div> */}
+      
     </>
   )
 }

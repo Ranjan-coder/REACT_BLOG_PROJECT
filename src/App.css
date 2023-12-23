@@ -48,7 +48,7 @@ body{
 }
 .advertimg2{
   width: 450px;
-  height: 315px;
+  height: 349px;
 
 }
 /* hr{
@@ -71,7 +71,7 @@ a{
   text-decoration: none;
 }
 #homeparent{
-  display: grid;
+  display: flex;
   height: 400px;
   border: 2px solid red;
   grid-template-columns: 60% 20%;
@@ -80,31 +80,27 @@ a{
   justify-content: center;
   border-radius: 15px;
 }
+#hrightimg{
+  display: flex;
+  justify-content: center;
+}
 .imageheight{
   width: 308px;
   height: 184px;
+  border-radius: 15px;
 }
 /* img{
   object-fit: cover;
 } */
 #imghs1{
-  grid-column: 1/2;
-  grid-row: 1/2;
-  /* height: 80%; */
-  /* width: 80%; */
-  background-color: #7bd0f1;
+  height: 100%;
+background-color: #fff;
 }
 #imghs2{
-  grid-column: 2/3;
-  grid-row: 1/2;
-  /* height: 80%;
-  width: 100%; */
+background-color: #f0abab;
 }
 #imghs3{
-  grid-column: 2/3;
-  grid-row: 2/3;
-  /* height: 80%;
-  width: 100%; */
+background-color: #9ef4cf;
 }
 .parentside{
   display: flex;
@@ -115,6 +111,9 @@ a{
   display: flex;
   gap: 10px;
   border-bottom: 1px solid gray;
+}
+.parentcontent:hover{
+  background-color: #8d8686;
 }
 .headingcnt{
   font-size: x-large;
@@ -149,6 +148,43 @@ a{
 }
 .smalltopost{
   display: flex;
+}
+#dynmbgc{
+  background-color: #fff;
+  border-radius: 15px;
+  height: fit-content;
+}
+#dynmheading{
+  color: #2f046f;
+  text-align: center;
+}
+#dynmimgcenter{
+  display: flex;
+  justify-content: center;
+}
+#dynmimg{
+  height: 400px;
+  border-radius: 15px;
+}
+#dynmdesc{
+  height: fit-content;
+  padding: 10px;
+}
+#dynmrevbtm{
+  color: #2f046f;
+  height: 50px;
+  width: 190px;
+  border: 2px solid red;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: x-large;
+  font-weight: 500;
+}
+#dynmbtm{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+
 }
 
 

@@ -11,18 +11,22 @@ const DynamicCompo = () => {
 
   return (
     <>
-    <div>
+    <div id='dynmbgc'>
        {contextData.filter((data)=>data.id === parseInt(paremId)).map((item,index)=>{
         return(
             <div key={index}>
-                <h1>{item.heading}</h1>
-                <img src={item.image} alt='not found' height={'100px'}/>
-                <p>{item.description}</p>
+                <h1 id='dynmheading'>{item.heading}</h1>
+                <div id='dynmimgcenter'>
+                <img id='dynmimg' src={item.image} alt='not found' height={'100px'}/>
+                </div>
+                <p id='dynmdesc'>{item.description}</p>
             </div>
         )
        })}
     </div>
-    <button onClick={()=>Navi(-1)}>Go Back</button>
+    <div id='dynmbtm'>
+    <button id='dynmrevbtm' onClick={()=>Navi(-1)}>Go Back</button>
+    </div>
     </>
   )
 }

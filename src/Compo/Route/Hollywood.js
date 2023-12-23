@@ -2,6 +2,8 @@ import React, { useContext } from 'react'
 import { Store } from '../Store/Store'
 import { NavLink } from 'react-router-dom'
 
+
+
 const Hollywood = () => {
 
   const [data] = useContext(Store)
@@ -9,54 +11,79 @@ const Hollywood = () => {
 
   return (
     <>
+    
       <div className='parentside'>
-        <div>
+        <div className='leftchild'>
           <div className='toppost'>Hollywood</div>
           <div className='hrline'></div>
           {data.filter((e) => e.catagory === 'hollywood').map((item, index) => {
             return (
               <>
+
                 <div className='parentcontent'>
                   <div className='childc1'>
-                  <NavLink to={`/dynamic/${item.id}`}>
-                    {/* <h2>{item.heading}</h2> */}
-                    <img className='imageheight' src={item.image} alt='not found' />
-                  </NavLink>
+
+                    <NavLink to={`/dynamic/${item.id}`}>
+                      <img className='imageheight' src={item.image} alt='not found' />
+                    </NavLink>
                   </div>
 
                   <div className='childc2'>
-                  <NavLink to={`/dynamic/${item.id}`}>
-                    <h2 className='itemheading'>{item.heading}</h2>
-                    {/* <img className='imageheight' src={item.image} alt='image not found' /> */}
-                  </NavLink>
-                  <p>{item.description.slice(0,150)}...</p>
+                    <NavLink to={`/dynamic/${item.id}`}>
+                      <h2 className='itemheading'>{item.heading}</h2>
+                    </NavLink>
+                    <p className='itemdesc'>{item.description.slice(0, 130)}...</p>
                   </div>
                 </div>
-                <hr />
+
               </>
             )
           })}
         </div>
-        <div>
+        <div className='righttchild'>
           <div className='toppost'>Top Posts</div>
           <div className='hrline'></div>
-          {data.filter((e) => e.catagory === 'hollywood').map((item, index) => {
-            return (
-              <>
-                <div>
-                  <NavLink to={`/dynamic/${item.id}`}>
-                    <h2 className='itemheading'>{item.heading}</h2>
-                    <img className='imageheight' src={item.image} alt='not found' />
-                  </NavLink>
-                  <p>{item.description.slice(0,150)}...</p>
-                </div>
-                <hr />
-              </>
-            )
-          })}
-          <div className='advertisement'>
-            <img className='advertimg' src='https://i.pinimg.com/564x/1c/de/7f/1cde7fa7ad3a53a9393982ab7abd8701.jpg' alt='ad'/>
+          <div>
+
+
+
+            {data.filter((e) => e.catagory === 'hollywoodt' && e.topost === 'firsttop').map((item, index) => {
+              return (
+                <>
+                  <div>
+                    <NavLink to={`/dynamic/${item.id}`}>
+                      <img className='imageheight tphw' src={item.image} alt='not found' />
+                      <h2 className='itemheading'>{item.heading}</h2>
+                    </NavLink>
+                  </div>
+                  <hr />
+                </>
+              )
+            })}
           </div>
+
+          <div>
+            {data.filter((e) => e.catagory === 'hollywoodt' && ((e.id >= 99) && (e.id <= 101))).map((item, index) => {
+              return (
+                <>
+                  <div className='smalltopost'>
+                    <NavLink to={`/dynamic/${item.id}`}>
+                      <img className='imageheight tphwsmall' src={item.image} alt='not found' />
+                    </NavLink>
+                    <NavLink to={`/dynamic/${item.id}`}>
+                      <h2 className='itemheading'>{item.heading}</h2>
+                    </NavLink>
+                  </div>
+                  <hr />
+                </>
+              )
+            })}
+          </div>
+          <div className='advertisement'>
+            <img className='advertimg' src='https://i.pinimg.com/736x/12/ff/fd/12fffdd0d71dd1151eec5751177ff662.jpg' alt='ad' />
+          <img className='advertimg2' src='https://dr-vfx.com/wp-content/uploads/2022/09/How-to-make-a-product-video-like-apple.jpg' alt='not found'/>
+          </div>
+
         </div>
       </div>
     </>

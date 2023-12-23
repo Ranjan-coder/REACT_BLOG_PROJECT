@@ -12,10 +12,16 @@ const Home = () => {
       <h1>This is Home Page</h1>
       <div id='homeparent'>
         <div id='imghs1'>
+          {/* <img src='./../Imageh/image_hw.jpg' /> */}
         </div>
-        <div id='imghs2'>
-        </div>
-        <div id='imghs3'>
+        <div id='hrightimg'>
+          <div id='imghs2'>
+
+          </div>
+          
+          <div id='imghs3'>
+          </div>
+
         </div>
       </div>
       <div id='firstlatest'>The Latest</div>
@@ -27,9 +33,10 @@ const Home = () => {
               <div >
                 <NavLink to={`/dynamic/${item.id}`}>
                   <h2 className='itemheading'>{item.heading}</h2>
-                  <img className='imageheight' src={item.image} alt='not found'/>
+                  <img className='imageheight' src={item.image} alt='not found' />
                 </NavLink>
-                <p>{item.description.slice(0,150)}...</p>
+                <p>{item.description.slice(0, 150)}...</p>
+
               </div>
             </>
           )

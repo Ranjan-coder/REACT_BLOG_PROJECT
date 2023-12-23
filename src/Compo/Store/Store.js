@@ -90,13 +90,13 @@ const DataCompo = (props) => {
       catagory : 'bollywood',
       description : "Mission Raniganj: The Great Bharat Rescue is a 2023 Indian Hindi-language disaster thriller film[4] directed by Tinu Suresh Desai and produced by Pooja Entertainment.[5][6] Based on the Raniganj Coalfields collapse of 1989 in West Bengal, the film stars Akshay Kumar and Parineeti Chopra.[7][8] The film is based on Jaswant Singh Gill, a brave and diligent mining engineer from IIT Dhanbad who rescued 65 trapped miners at the Raniganj Coalfields in 1989.[9]"
     },
-    {
-      id: 12,
-      image : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWuSWDtsDY4go6CDuBvrkEAfnmGK8EVlPtl6CvXExxA5UluZS0',
-      catagory : 'hollywood',
-      heading : 'HYPNOTIC',
-      description : 'Hypnotic is a 2023 American mystery action thriller film directed by Robert Rodriguez, who co-wrote the screenplay with Max Borenstein. The film stars Ben Affleck, Alice Braga, J. D. Pardo, Hala Finley, Dayo Okeniyi, Jeff Fahey, Jackie Earle Haley and William Fichtner. Rodriguez also produced, co-shot, and edited the film, while his sons Rebel Rodriguez and Racer Max served as composer and producer, respectively.',
-    },
+    // {
+    //   id: 12,
+    //   image : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWuSWDtsDY4go6CDuBvrkEAfnmGK8EVlPtl6CvXExxA5UluZS0',
+    //   catagory : 'hollywood',
+    //   heading : 'HYPNOTIC',
+    //   description : 'Hypnotic is a 2023 American mystery action thriller film directed by Robert Rodriguez, who co-wrote the screenplay with Max Borenstein. The film stars Ben Affleck, Alice Braga, J. D. Pardo, Hala Finley, Dayo Okeniyi, Jeff Fahey, Jackie Earle Haley and William Fichtner. Rodriguez also produced, co-shot, and edited the film, while his sons Rebel Rodriguez and Racer Max served as composer and producer, respectively.',
+    // },
     {
       id: 13,
       image : 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTYyaCMGIDqOrnfFiXD5Wj3--gOX6aYjvtE-DKc3ym6Wyr_UQqH',
@@ -135,10 +135,10 @@ const DataCompo = (props) => {
     },
     {
       id: 19,
-      image : 'https://media.istockphoto.com/id/1270401890/photo/portrait-of-female-biker-smiling-for-camera-in-public-park.jpg?s=612x612&w=0&k=20&c=TyO4rAtpanMydz-MloM1xYc5BywacS7T2yA7Pb0yjvc=',
+      image : 'https://m.economictimes.com/thumb/height-450,width-600,imgsize-73862,msid-102281194/strawberries_istock.jpg',
       catagory : 'food',
-      heading : 'ACTIVE LIFESTYLE',
-      description : 'This plays a pertinent role in maintaining fitness. School children should prefer walking instead of being driven by any kind of vehicle if it is at a walking distance. Stairs can be used instead of elevators. Rather than sticking to T.V or mobile screens one should opt for outdoor games. In this manner one could lead a more active lifestyle by adding to it more efforts physically.',
+      heading : 'STRAWBERRY',
+      description : "A strawberry is a short plant in the wild strawberry genus of the rose family. It is a widely grown hybrid species of the genus Fragaria. The name is used for its very common sweet edible 'fruit' and for flavors that taste like it.The real fruit of the plant are the tiny 'seeds' around the 'fruit'. The fruit is actually a sweet swelling of the plant's stem around the real fruit, which people call the pips.The plant grown today is a mix of two other species of wild strawberries. It was first grown in the 1750s.",
     },
     {
       id: 20,
@@ -231,13 +231,13 @@ const DataCompo = (props) => {
       heading : 'ARTIFICIAL INTELLIGENCE ( AI ) AND MACHINE LEARNING',
       description : "Artificial Intelligence, or AI, has already received a lot of buzz in the past decade. Still, it continues to be one of the new technology trends because of its notable effects on how we live, work and play are only in the early stages. AI is already known for its superiority in image and speech recognition, navigation apps, smartphone personal assistants, ride-sharing apps and so much more.Other than that, AI will be used further to analyze interactions to determine underlying connections and insights, to help predict demand for services like hospitals enabling authorities to make better decisions about resource utilization, and to detect the changing patterns of customer behaviour by analyzing data in near real-time, driving revenues and enhancing personalized experiences. With AI spreading its wings across sectors, new jobs will be created in development, programming, testing, support and maintenance, to name a few. On the other hand AI also offers some of the highest salaries today!Machine Learning the subset of AI, is also being deployed in all kinds of industries, creating a huge demand for skilled professionals. Forrester predicts AI, machine learning, and automation will create 9 percent of new U.S. jobs by 2025, jobs including robot monitoring professionals, data scientists, automation specialists, and content curators, making it another new technology trend you must keep in mind too!",
     },
-    {
-      id: 33,
-      image : 'https://onaudience.com/wp-content/uploads/2023/11/data-tech-diagram-1024x974.png',
-      catagory : 'technology',
-      heading : 'DATA TECH',
-      description : "Data technologies are used to manage data sets that are growing all over the world. Year by year humans and machines generates loads of data. To control it and make profits from data, companies need adequate technologies.DataTech sector helps to manage big data sets, build solutions for data management and integrate data from many sources, such as online (websites, landing pages, mobile apps) and offline (surveys). Collected information that is stored in one place is extremely useful in discovering business insights or analyzing behaviour of humans or machines.Let’s take a look at numbers. Global amount of generated data will reach 163 zetabytes in 2025. According to Forbes, we produce over 2,5 quintillion of bytes every day. It determines growing spendings on technologies that help control data assets.",
-    },
+    // {
+    //   id: 33,
+    //   image : 'https://onaudience.com/wp-content/uploads/2023/11/data-tech-diagram-1024x974.png',
+    //   catagory : 'technology',
+    //   heading : 'DATA TECH',
+    //   description : "Data technologies are used to manage data sets that are growing all over the world. Year by year humans and machines generates loads of data. To control it and make profits from data, companies need adequate technologies.DataTech sector helps to manage big data sets, build solutions for data management and integrate data from many sources, such as online (websites, landing pages, mobile apps) and offline (surveys). Collected information that is stored in one place is extremely useful in discovering business insights or analyzing behaviour of humans or machines.Let’s take a look at numbers. Global amount of generated data will reach 163 zetabytes in 2025. According to Forbes, we produce over 2,5 quintillion of bytes every day. It determines growing spendings on technologies that help control data assets.",
+    // },
     {
       id : 34,
       image : 'https://upload.wikimedia.org/wikipedia/en/9/90/Animal_%282023_film%29_poster.jpg',
@@ -247,7 +247,7 @@ const DataCompo = (props) => {
     },
     {
       id : 35,
-      image : 'https://upload.wikimedia.org/wikipedia/en/6/69/Agent_%28film%29.jpg',
+      image : 'https://assets.gadgets360cdn.com/pricee/assets/product/202203/Agent-poster_1648056277.jpg',
       catagory : 'bollywood',
       heading : 'AGENT',
       description : "Agent is an 2023 Indian Telugu-language action spy film directed by Surender Reddy and written by Vakkantham Vamsi. It stars Akhil Akkineni, Mammootty, Dino Morea, Sakshi Vaidya and Vikramjeet Virk. The film marks the debut of Vaidya and Morea in Telugu cinema.[5]The film was announced in September 2020. Filming took place in Hyderabad, Budapest, Visakhapatnam and Manali. The release was deferred multiple times due to the COVID-19 pandemic and production delays."
@@ -263,23 +263,23 @@ const DataCompo = (props) => {
       id : 37,
       image : 'https://upload.wikimedia.org/wikipedia/en/b/b4/Spider-Man-_Across_the_Spider-Verse_poster.jpg',
       catagory : 'hollywood',
-      heading : 'SPIDER MAN : ACROSSTHE THE SPIDER VERSE',
+      heading : 'SPIDER MAN',
       description : "Spider-Man: Across the Spider-Verse is a 2023 American animated superhero film featuring the Marvel Comics character Miles Morales / Spider-Man, produced by Columbia Pictures and Sony Pictures Animation in association with Marvel Entertainment, and distributed by Sony Pictures Releasing. It is the sequel to Spider-Man: Into the Spider-Verse (2018), set in a shared multiverse of alternate universes called the Spider-Verse. The film is directed by Joaquim Dos Santos, Kemp Powers and Justin K. Thompson from a screenplay by Phil Lord, Christopher Miller who both also produce, and David Callaham. Shameik Moore voices Miles, starring alongside Hailee Steinfeld, Brian Tyree Henry, Lauren Vélez, Jake Johnson, Jason Schwartzman, Issa Rae, Karan Soni, Shea Whigham, Greta Lee, Daniel Kaluuya, Mahershala Ali and Oscar Isaac. In the film, Miles goes on an adventure with Gwen Stacy / Spider-Woman across the multiverse where he meets a team of Spider-People known as the Spider-Society, led by Miguel O'Hara / Spider-Man 2099, but comes into conflict with them over handling a new threat in the form of the Spot."
     },
-    {
-      id : 38,
-      image : 'https://upload.wikimedia.org/wikipedia/en/c/c3/Indiana_Jones_and_the_Dial_of_Destiny_theatrical_poster.jpg',
-      catagory : 'hollywood',
-      heading : 'INDIAN JONES AND THE DIAL OF DESTINY',
-      description : "Indiana Jones and the Dial of Destiny is a 2023 American action adventure film directed by James Mangold, who co-wrote it with David Koepp and the writing team of Jez and John-Henry Butterworth. It is the fifth and final installment in the Indiana Jones film series and the sequel to Indiana Jones and the Kingdom of the Crystal Skull (2008). It stars Harrison Ford, John Rhys-Davies, and Karen Allen reprising their roles as Indiana Jones, Sallah, and Marion Ravenwood, respectively, while new cast members include Phoebe Waller-Bridge, Antonio Banderas, Toby Jones, Boyd Holbrook, Ethann Isidore, and Mads Mikkelsen. Set in 1969, the film follows Indy and his estranged goddaughter, Helena, who are trying to locate a powerful artifact before Jürgen Voller, a Nazi-turned-NASA scientist, who plans to use it to alter the outcome of World War II."
-    },
-    {
-      id : 39,
-      image : 'https://upload.wikimedia.org/wikipedia/en/c/ca/Meg_2-_The_Trench_film_cover.jpg',
-      catagory : 'hollywood',
-      heading : 'MEG 2',
-      description : 'Meg 2: The Trench (titled Shark 2 in some territories[2]) is a 2023 science fiction action film directed by Ben Wheatley from a screenplay by Jon Hoeber, Erich Hoeber, and Dean Georgaris, based on the 1999 novel The Trench by Steve Alten. It serves as the sequel to The Meg (2018). The film stars Jason Statham, Wu Jing, Sophia Cai, Page Kennedy, Sergio Peris-Mencheta, Skyler Samuels and Cliff Curtis. Like the previous film, it follows a group of scientists who must outrun and outswim the titular megalodons when a malevolent mining operation threatens their mission and forces them into a high-stakes battle for survival.'
-    },
+    // {
+    //   id : 38,
+    //   image : 'https://upload.wikimedia.org/wikipedia/en/c/c3/Indiana_Jones_and_the_Dial_of_Destiny_theatrical_poster.jpg',
+    //   catagory : 'hollywood',
+    //   heading : 'INDIAN JONES AND THE DIAL OF DESTINY',
+    //   description : "Indiana Jones and the Dial of Destiny is a 2023 American action adventure film directed by James Mangold, who co-wrote it with David Koepp and the writing team of Jez and John-Henry Butterworth. It is the fifth and final installment in the Indiana Jones film series and the sequel to Indiana Jones and the Kingdom of the Crystal Skull (2008). It stars Harrison Ford, John Rhys-Davies, and Karen Allen reprising their roles as Indiana Jones, Sallah, and Marion Ravenwood, respectively, while new cast members include Phoebe Waller-Bridge, Antonio Banderas, Toby Jones, Boyd Holbrook, Ethann Isidore, and Mads Mikkelsen. Set in 1969, the film follows Indy and his estranged goddaughter, Helena, who are trying to locate a powerful artifact before Jürgen Voller, a Nazi-turned-NASA scientist, who plans to use it to alter the outcome of World War II."
+    // },
+    // {
+    //   id : 39,
+    //   image : 'https://upload.wikimedia.org/wikipedia/en/c/ca/Meg_2-_The_Trench_film_cover.jpg',
+    //   catagory : 'hollywood',
+    //   heading : 'MEG 2',
+    //   description : 'Meg 2: The Trench (titled Shark 2 in some territories[2]) is a 2023 science fiction action film directed by Ben Wheatley from a screenplay by Jon Hoeber, Erich Hoeber, and Dean Georgaris, based on the 1999 novel The Trench by Steve Alten. It serves as the sequel to The Meg (2018). The film stars Jason Statham, Wu Jing, Sophia Cai, Page Kennedy, Sergio Peris-Mencheta, Skyler Samuels and Cliff Curtis. Like the previous film, it follows a group of scientists who must outrun and outswim the titular megalodons when a malevolent mining operation threatens their mission and forces them into a high-stakes battle for survival.'
+    // },
     {
       id : 40,
       image : 'https://upload.wikimedia.org/wikipedia/en/d/d8/Knights_of_the_Zodiac_poster.jpg',
@@ -301,13 +301,13 @@ const DataCompo = (props) => {
       heading : 'MASHROOM',
       description : "A mushroom is a fleshy, spore-bearing fruiting body of a fungus. Mushrooms are part of the kingdom Fungi, which includes mold, yeasts, and rusts. There are over 144,000 known species of fungi, and some mushrooms are edible and safe to eat, while others can be harmful."
     },
-    {
-      id : 43,
-      image : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRamuKs9mVBIQq-jEmtKK5qqTAEY4UQVinBRB5tzetGhYi6gYhB',
-      catagory : 'food',
-      heading : 'CULLYFLOWER',
-      description : 'Cauliflower is one of several vegetables in the species Brassica oleracea in the genus Brassica, which is in the Brassicaceae (or mustard) family. It is an annual plant that reproduces by seed. Typically, only the head is eaten – the edible white flesh is sometimes called "curd" (with a similar appearance to cheese curd).[1] The cauliflower head is composed of a white inflorescence meristem. Cauliflower heads resemble those in broccoli, which differs in having flower buds as the edible portion. Brassica oleracea also includes broccoli, Brussels sprouts, cabbage, collard greens, kale, and kohlrabi, collectively called "cole" crops,[2] though they are of different cultivar groups.'
-    },
+    // {
+    //   id : 43,
+    //   image : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRamuKs9mVBIQq-jEmtKK5qqTAEY4UQVinBRB5tzetGhYi6gYhB',
+    //   catagory : 'food',
+    //   heading : 'CULLYFLOWER',
+    //   description : 'Cauliflower is one of several vegetables in the species Brassica oleracea in the genus Brassica, which is in the Brassicaceae (or mustard) family. It is an annual plant that reproduces by seed. Typically, only the head is eaten – the edible white flesh is sometimes called "curd" (with a similar appearance to cheese curd).[1] The cauliflower head is composed of a white inflorescence meristem. Cauliflower heads resemble those in broccoli, which differs in having flower buds as the edible portion. Brassica oleracea also includes broccoli, Brussels sprouts, cabbage, collard greens, kale, and kohlrabi, collectively called "cole" crops,[2] though they are of different cultivar groups.'
+    // },
     {
       id : 44,
       image : 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRar9F5z4DLYoMjSDUrWbItAauzU6sjcNMdbnhHhgbmxoF13OUE',
@@ -322,13 +322,13 @@ const DataCompo = (props) => {
       heading : 'REACT',
       description : "React is a JavaScript library for building user interfaces. It is declarative, efficient, and flexible. React makes it easy to create interactive UIs by using a component-based approach.React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable and easier to debug."
     },
-    {
-      id : 46,
-      image : 'https://miro.medium.com/v2/resize:fit:679/1*m2M7BVJ5XC96hpl_lgKIkg.gif',
-      catagory : 'technology',
-      heading : 'MONGODB',
-      description : "MongoDB is a tool for managing and storing document-oriented information. It's a NoSQL database that's considered schemaless because it doesn't require a rigid, pre-defined schema. This means that data can be placed into a NoSQL database without a predefined schema, and the data model and formats can be changed without disrupting applications. MongoDB is used for high-volume data storage, helping organizations store large amounts of data while still performing rapidly. It's widely used for storing product information and details by finance and e-commerce companies. MongoDB can also be used to store and model machine-generated data."
-    },
+    // {
+    //   id : 46,
+    //   image : 'https://miro.medium.com/v2/resize:fit:679/1*m2M7BVJ5XC96hpl_lgKIkg.gif',
+    //   catagory : 'technology',
+    //   heading : 'MONGODB',
+    //   description : "MongoDB is a tool for managing and storing document-oriented information. It's a NoSQL database that's considered schemaless because it doesn't require a rigid, pre-defined schema. This means that data can be placed into a NoSQL database without a predefined schema, and the data model and formats can be changed without disrupting applications. MongoDB is used for high-volume data storage, helping organizations store large amounts of data while still performing rapidly. It's widely used for storing product information and details by finance and e-commerce companies. MongoDB can also be used to store and model machine-generated data."
+    // },
     {
       id : 47,
       image : 'https://yt3.googleusercontent.com/7Qy-xiYrM2DHUEVFTBkok5ei6n_qEnH9XRwBECZnsl_E02VxrLDYcU7svibdYL1YYs9sZKe6KA=s900-c-k-c0x00ffffff-no-rj',
@@ -336,20 +336,20 @@ const DataCompo = (props) => {
       heading : 'CHROME',
       description : "Google Chrome is a cross-platform web browser developed by Google. It was first released in 2008 for Microsoft Windows, built with free software components from Apple WebKit and Mozilla Firefox.[16] Versions were later released for Linux, macOS, iOS, and also for Android, where it is the default browser.[17] The browser is also the main component of ChromeOS, where it serves as the platform for web applications."
     },
-    {
-      id : 48,
-      image : 'https://upload.wikimedia.org/wikipedia/en/thumb/9/92/Windows_11_Desktop.png/300px-Windows_11_Desktop.png',
-      catagory : 'technology',
-      heading : 'WINDOWS',
-      description : "Windows 11 is the latest major release of Microsoft's Windows NT operating system, released on October 5, 2021. It succeeded Windows 10 (2015) and is available for free for any Windows 10 devices that meet the new Windows 11 system requirements.Windows 11 features major changes to the Windows shell influenced by the canceled Windows 10X, including a redesigned Start menu, the replacement of its 'live tiles' with a separate 'Widgets' panel on the taskbar, the ability to create tiled sets of windows that can be minimized and restored from the taskbar as a group, and new gaming technologies inherited from Xbox Series X and Series S such as Auto HDR and DirectStorage on compatible hardware. Internet Explorer (IE) has been replaced by the Chromium-based Microsoft Edge as the default web browser, like its predecessor, Windows 10, and Microsoft Teams is integrated into the Windows shell."
-    },
-    {
-      id : 49,
-      image : 'https://m.economictimes.com/thumb/msid-98938183,width-1200,height-900,resizemode-4,imgsize-22794/ios-17-update-three-new-features-likely-to-be-added-to-iphones-in-new-update.jpg',
-      catagory : 'technology',
-      heading : 'APPLE',
-      description : "Apple Inc. is an American multinational technology company headquartered in Cupertino, California. As of March 2023, Apple is the world's largest company by market capitalization,[6] and with US$394.3 billion the largest technology company by 2022 revenue.[7] As of June 2022, Apple is the fourth-largest personal computer vendor by unit sales; the largest manufacturing company by revenue; and the second-largest mobile phone manufacturer in the world. It is considered one of the Big Five American information technology companies, alongside Alphabet (parent company of Google), Amazon, Meta, and Microsoft."
-    },
+    // {
+    //   id : 48,
+    //   image : 'https://upload.wikimedia.org/wikipedia/en/thumb/9/92/Windows_11_Desktop.png/300px-Windows_11_Desktop.png',
+    //   catagory : 'technology',
+    //   heading : 'WINDOWS',
+    //   description : "Windows 11 is the latest major release of Microsoft's Windows NT operating system, released on October 5, 2021. It succeeded Windows 10 (2015) and is available for free for any Windows 10 devices that meet the new Windows 11 system requirements.Windows 11 features major changes to the Windows shell influenced by the canceled Windows 10X, including a redesigned Start menu, the replacement of its 'live tiles' with a separate 'Widgets' panel on the taskbar, the ability to create tiled sets of windows that can be minimized and restored from the taskbar as a group, and new gaming technologies inherited from Xbox Series X and Series S such as Auto HDR and DirectStorage on compatible hardware. Internet Explorer (IE) has been replaced by the Chromium-based Microsoft Edge as the default web browser, like its predecessor, Windows 10, and Microsoft Teams is integrated into the Windows shell."
+    // },
+    // {
+    //   id : 49,
+    //   image : 'https://m.economictimes.com/thumb/msid-98938183,width-1200,height-900,resizemode-4,imgsize-22794/ios-17-update-three-new-features-likely-to-be-added-to-iphones-in-new-update.jpg',
+    //   catagory : 'technology',
+    //   heading : 'APPLE',
+    //   description : "Apple Inc. is an American multinational technology company headquartered in Cupertino, California. As of March 2023, Apple is the world's largest company by market capitalization,[6] and with US$394.3 billion the largest technology company by 2022 revenue.[7] As of June 2022, Apple is the fourth-largest personal computer vendor by unit sales; the largest manufacturing company by revenue; and the second-largest mobile phone manufacturer in the world. It is considered one of the Big Five American information technology companies, alongside Alphabet (parent company of Google), Amazon, Meta, and Microsoft."
+    // },
     {
       id : 50,
       image : 'https://www.muscleandfitness.com/wp-content/uploads/2023/06/Man-exercising-with-a-rope-climbing-technique.jpg?w=1109&h=614&crop=1&quality=86&strip=all',
@@ -357,7 +357,10 @@ const DataCompo = (props) => {
       heading : 'CLIMB',
       description : "Supine to standing rope climb – Hang a rope from a pull up bar and lie on your back on the ground, straddling the rope. Climb up the rope, using the feet to come to a standing position. Then climb down the rope and return to a supine position.Rope climbing works most of your muscle groups, including your grip strength, biceps, forearms, lats and lower back (entire back), chest, and core. If you are using your legs too, all of your leg muscles are being activated as well."
     },
+
+
       // latest top post
+
     {
       id : 52,
       image : 'https://m.media-amazon.com/images/M/MV5BYWYwMWU2N2QtMjExOC00OWY1LTllYzEtYWZjYzZlY2IwMzVhXkEyXkFqcGdeQXVyNjE0ODgwMDA@._V1_.jpg',
@@ -374,9 +377,34 @@ const DataCompo = (props) => {
       description : 'Smartwatches are the one that knocks out the latest and challenges new inbuilt features. For the upgraded version at a reasonable price. When you are snooping around for a fitness smartwatch you may be puzzled. Because the first thing that will attract your attention is the several options available in the market. It counts on what you are searching forward to. If you want a standard watch that just shows you the time, then you are focusing your selection mostly on style. Nevertheless, if you have to select between a smartwatch or a fitness tracker then you are focused on what extraordinary features you may be provided within health as well as technology-wise. However, if you are a fitness canny then Zest Pro Smartwatch is your solid all-rounder stop. As they are the blend of both a fitness tracker and a smartwatch with incredible characteristics. They offer amazing features, functionality plus attractive build-up at an affordable price.',
       topost : 'firsttop'
     },
+    {
+      id : 54,
+      image : 'https://m.media-amazon.com/images/S/pv-target-images/d5d2a1cc4e103eb34e80386de73460767a91a1fba3562a4f5d0419fbfc09c908.jpg',
+      catagory : 'hollywoodt',
+      heading : 'THE LAST AIRBENDER',
+      description : 'The Last Airbender is a 2010 American action-adventure fantasy film written, co-produced and directed by M. Night Shyamalan, produced by Paramount Pictures, Nickelodeon Movies, Blinding Edge Pictures, and the Kennedy/Marshall Company, and distributed by Paramount.[7][6][1][8] Based on Book One: Water of the Nickelodeon animated television series Avatar: The Last Airbender, the film stars Noah Ringer as Aang, with Dev Patel playing Prince Zuko, Nicola Peltz and Jackson Rathbone as Katara and Sokka.[9] The film tells the story of Aang, a young Avatar who must master all four elements of air, water, fire and earth and restore balance to the world while stopping the Fire Nation from conquering the Water Tribes and the Earth Kingdom.',
+      topost : 'firsttop'
+    },
+    {
+      id : 55,
+      image : 'https://www.currencytransfer.com/wp-content/uploads/2022/10/robot-3-edit.min_.jpg',
+      catagory : 'technologyt',
+      heading : 'HUMANOID',
+      description : 'A humanoid (/ˈhjuːmənɔɪd/; from English human and -oid "resembling") is a non-human entity with human form or characteristics. By the 20th century, the term came to describe fossils which were morphologically similar, but not identical, to those of the human skeleton.[1]Although this usage was common in the sciences for much of the 20th century, it is now considered rare.[1] More generally, the term can refer to anything with distinctly human characteristics or adaptations, such as possessing opposable anterior forelimb-appendages (i.e. thumbs), visible spectrum-binocular vision (i.e. having two eyes), or biomechanic plantigrade-bipedalism (i.e. the ability to walk on heels and metatarsals in an upright position). Humanoids may also include human-animal hybrids (where each cell has partly human and partly animal genetic contents) and human-animal chimeras (where some cells are human and some cells are animal in origin).[2] Science fiction media frequently present sentient extraterrestrial lifeforms as humanoid as a byproduct of convergent evolution.',
+      topost : 'firsttop'
+    },
+    {
+      id : 56,
+      image : 'https://cdn.britannica.com/22/187222-050-07B17FB6/apples-on-a-tree-branch.jpg',
+      catagory : 'foodt',
+      heading : 'APPLE',
+      description : 'Apple, (Malus domestica), domesticated tree and fruit of the rose family (Rosaceae), one of the most widely cultivated tree fruits. Apples are predominantly grown for sale as fresh fruit, though apples are also used commercially for vinegar, juice, jelly, applesauce, and apple butter and are canned as pie stock. A significant portion of the global crop also is used for cider, wine, and brandy. Fresh apples are eaten raw or cooked. There are a variety of ways in which cooked apples are used; frequently, they are used as a pastry filling, apple pie being perhaps the archetypal American dessert. Especially in Europe, fried apples characteristically accompany certain dishes of sausage or pork. Apples provide vitamins A and C, are high in carbohydrates, and are an excellent source of dietary fibre.',
+      topost : 'firsttop'
+    },
 
-   
-    
+
+  //  BOLLYWOOD SMALL TOP POST 
+
     {
       id: 90,
       image : 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSmoZIoFgIkKCledRzZT3q3xy64ZwMfnVXSQUdfp7cSo1suHPye',
@@ -398,20 +426,124 @@ const DataCompo = (props) => {
       heading : 'THE GREAT INDIAN FAMILY',
       description : 'The Great Indian Family is a 2023 Indian Hindi-language comedy drama film written and directed by Vijay Krishna Acharya and produced by Aditya Chopra under the banner of Yash Raj Films.[4][5] It stars Vicky Kaushal as a religious, Hindu Pandit who is revealed to be Muslim by birth. Manushi Chhillar, Manoj Pahwa, and Kumud Mishra appear in supporting roles.[6][7]Principal photography began on 20 November 2020 and ended on 25 February 2021. It was released theatrically on 22 September 2023.[8]'
     },
+
+    // FITNESS SMALL TOP POST 
+
     {
       id : 93,
-      image : '',
-      catagory : '',
-      heading : '',
-      description : ''
+      image : 'https://www.cnet.com/a/img/resize/bfcd7abe74a2ba4123f34d217b5cbad648666ac1/hub/2022/01/06/94140ad3-f139-4a76-821e-98a5262afb71/lifestyle-lumen-jpg.png?auto=webp&fit=crop&height=360&width=640',
+      catagory : 'fitnesst',
+      heading : 'LUMEN',
+      description : "This tool is all about teaching you how to meet your wellness goals. I found the Lumen difficult to use at first because I couldn't breathe correctly (I was always winded), but once I got used to it, it was smooth sailing. When using Lumen, you breathe into it to identify whether you are burning fat or carbs. From there, you're given a health plan via the Lumen app that you can use to monitor your progress. Even if you're not using it consistently, it does a good job of always telling you where you are on its scale so you can adjust yourself accordingly. I'd liken it to using a Keto stick to know where you are for that diet, just more high-tech."
     },
     {
       id : 94,
-      image : '',
-      catagory : '',
-      heading : '',
-      description : ''
+      image : 'https://i5.walmartimages.com/asr/11c3ee8f-cf52-4f8e-b7eb-ed7e6bd2ba2f.356d50679c1e9e7212df151874c2eb99.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF',
+      catagory : 'fitnesst',
+      heading : 'FITNESS MAT',
+      description : "If you have bad knees you may be in the habit of adding extra padding to your yoga mats, but why not get a thicker cushioned mat from the start? This mat is 1 inch thick and is still easily rolled up when it's not in use. Best of all, I found this mat surprisingly sweat-resistant regardless of the intensity of my workout. "
     },
+    {
+      id : 95,
+      image : 'https://thegadgetflow.com/wp-content/uploads/2023/01/The-most-innovative-workout-gadgets-to-look-forward-to-in-2023-blog-featured.jpeg',
+      catagory : 'fitnesst',
+      heading : 'LAUREN WADOWSKY',
+      description : 'It’s easy to grow tired of workout machines. But a cool new product or 2 might be all you need to put the zest back into your exercise routine. Luckily, the most innovative workout gadgets of 2023 have the tech to keep things interesting.When you’ve run the gamut of workout machines, it may be time to try a new style of exercise altogether, like the Quell fitness gaming console. It takes you to fantasy worlds where your hero’s strength increases with yours.'
+    },
+
+
+    // FOOD SMALL TOP POST 
+
+    {
+      id : 96,
+      image : 'https://i.pinimg.com/564x/38/38/c8/3838c8d365f0b2a0320dfbd8fbfab329.jpg',
+      catagory : 'foodt',
+      heading : 'SPRING ROLLS',
+      description : "Spring rolls are rolled appetizers or dim sum commonly found in Chinese and Southeast Asian cuisines. The kind of wrapper, fillings, and cooking technique used, as well as the name, vary considerably depending on the region's culture, though they are generally filled with vegetables."
+    },
+    {
+      id : 97,
+      image : 'https://i.pinimg.com/564x/17/bd/ba/17bdba17ac93acd96dc670887e1eefc7.jpg',
+      catagory : 'foodt',
+      heading : 'WATERMILLION',
+      description : 'Watermelon (Citrullus lanatus) is a flowering plant species of the Cucurbitaceae family and the name of its edible fruit. A scrambling and trailing vine-like plant, it is a highly cultivated fruit worldwide, with more than 1,000 varieties.Watermelon is grown in favorable climates from tropical to temperate regions worldwide for its large edible fruit, which is a berry with a hard rind and no internal divisions, and is botanically called a pepo. The sweet, juicy flesh is usually deep red to pink, with many black seeds, although seedless varieties exist. The fruit can be eaten raw or pickled, and the rind is edible after cooking. It may also be consumed as a juice or an ingredient in mixed beverages.'
+    },
+    {
+      id : 98,
+      image : 'https://fastandfresh.in/cdn/shop/products/triplecoconutwatertreat_800x.jpg?v=1659516595',
+      catagory : 'foodt',
+      heading : 'COCONUT',
+      description : 'The coconut tree (Cocos nucifera) is a member of the palm tree family (Arecaceae) and the only living species of the genus Cocos.[1] The term "coconut" (or the archaic "cocoanut")[2] can refer to the whole coconut palm, the seed, or the fruit, which botanically is a drupe, not a nut. The name comes from the old Portuguese word coco, meaning "head" or "skull", after the three indentations on the coconut shell that resemble facial features. They are ubiquitous in coastal tropical regions and are a cultural icon of the tropics.The coconut tree provides food, fuel, cosmetics, folk medicine and building materials, among many other uses. The inner flesh of the mature seed, as well as the coconut milk extracted from it, form a regular part of the diets of many people in the tropics and subtropics. Coconuts are distinct from other fruits because their endosperm contains a large quantity of clear liquid, called "coconut water" or "coconut juice". Mature, ripe coconuts can be used as edible seeds, or processed for oil and plant milk from the flesh, charcoal from the hard shell, and coir from the fibrous husk. Dried coconut flesh is called copra, and the oil and milk derived from it are commonly used in cooking – frying in particular – as well as in soaps and cosmetics. Sweet coconut sap can be made into drinks or fermented into palm wine or coconut vinegar. The hard shells, fibrous husks and long pinnate leaves can be used as material to make a variety of products for furnishing and decoration.'
+    },
+
+
+    // HOLLYWOOD SMALL POST 
+
+    {
+      id : 99,
+      image : 'https://m.media-amazon.com/images/M/MV5BNDYwNjhkN2QtNTQwYS00YTJlLThmNWQtMzViZWQzYzUzNWJlXkEyXkFqcGdeQXVyMTMxODQ2MjI4._V1_.jpg',
+      catagory : 'hollywoodt',
+      heading : 'THE LEGION OF SUPER-HEROES',
+      description : 'Legion of Super-Heroes is a 2023 American animated superhero film based on the DC Comics superhero team of the same name, produced by Warner Bros. Animation and distributed by Warner Bros. Home Entertainment. It is the sixth film in the "Tomorrowverse", and the overall 50th installment in the DC Universe Animated Original Movies line. The film follows Kara Zor-El / Supergirl as she trains alongside the members of the Legion of Super-Heroes from the 31st century, and battles the terrorist organization known as the Dark Circle. The film was directed by Jeff Wamester from a script by Josie Campbell while Jim Krieg, Kimberly S. Moreau served as producers, Butch Lukic as supervising producer and Sam Register as executive producer. The film was released on digital and to home video formats on February 7, 2023.'
+    },
+    {
+      id : 100,
+      image : 'https://upload.wikimedia.org/wikipedia/en/3/3e/The_Magician%27s_Elephant_poster.jpg',
+      catagory : 'hollywoodt',
+      heading : 'THE MAGICIAN ELEPHANT',
+      description : "The Magician's Elephant is a 2023 animated fantasy adventure film directed by Wendy Rogers, written by Martin Hynes and produced by Julia Pistor. Based on the 2009 novel of the same name by Kate DiCamillo, the film features the voices of Noah Jupe, Mandy Patinkin, Natasia Demetriou, Benedict Wong, Miranda Richardson and Aasif Mandvi. Animated by Animal Logic, the film was distributed by Netflix and released on March 17, 2023."
+    },
+    {
+      id : 101,
+      image : 'https://upload.wikimedia.org/wikipedia/en/c/c2/MKLegendsCageMatchCoverArt.jpg',
+      catagory : 'hollywoodt',
+      heading : 'THE MORTAL COMBAT',
+      description : "The Magician's Elephant is a 2023 animated fantasy adventure film directed by Wendy Rogers, written by Martin Hynes and produced by Julia Pistor. Based on the 2009 novel of the same name by Kate DiCamillo, the film features the voices of Noah Jupe, Mandy Patinkin, Natasia Demetriou, Benedict Wong, Miranda Richardson and Aasif Mandvi. Animated by Animal Logic, the film was distributed by Netflix and released on March 17, 2023."
+    },
+
+
+    // TECHNOLOGY SMALL POST 
+
+
+    {
+      id : 102,
+      image : 'https://imgsrv2.voi.id/KPT8jccAUPvJiHOimoLOoWchBUd6DnYglQfRWEabBB0/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy8zMDUwMC8yMDIxMDIwMzE0MTUtbW9iaWxlLmNyb3BwZWRfMTYxMjMzNjUzMC5qcGc.jpg',
+      catagory : 'technologyt',
+      heading : 'NEURALINK',
+      description : "Elon Musk's brain-chip firm says it has received approval from the US Food and Drugs Administration (FDA) to conduct its first tests on humans.The Neuralink implant company wants to help restore vision and mobility to people by linking brains to computers.It says it does not have immediate plans to start recruiting participants. Mr Musk's previous ambitions to begin tests came to nothing.The FDA said it acknowledged Neuralink's announcement.An earlier bid by Neuralink to win FDA approval was rejected on safety grounds, according to a report in March by the Reuters news agency that cited multiple current and former employees."
+    },
+    {
+      id : 103,
+      image : 'https://m.economictimes.com/thumb/msid-98938183,width-1200,height-900,resizemode-4,imgsize-22794/ios-17-update-three-new-features-likely-to-be-added-to-iphones-in-new-update.jpg',
+      catagory : 'technologyt',
+      heading : 'APPLE',
+      description : "Apple Inc. is an American multinational technology company headquartered in Cupertino, California. As of March 2023, Apple is the world's largest company by market capitalization,[6] and with US$394.3 billion the largest technology company by 2022 revenue.[7] As of June 2022, Apple is the fourth-largest personal computer vendor by unit sales; the largest manufacturing company by revenue; and the second-largest mobile phone manufacturer in the world. It is considered one of the Big Five American information technology companies, alongside Alphabet (parent company of Google), Amazon, Meta, and Microsoft."
+    },
+    {
+      id : 104,
+      image : 'https://upload.wikimedia.org/wikipedia/en/thumb/9/92/Windows_11_Desktop.png/300px-Windows_11_Desktop.png',
+      catagory : 'technologyt',
+      heading : 'WINDOWS',
+      description : "Windows 11 is the latest major release of Microsoft's Windows NT operating system, released on October 5, 2021. It succeeded Windows 10 (2015) and is available for free for any Windows 10 devices that meet the new Windows 11 system requirements.Windows 11 features major changes to the Windows shell influenced by the canceled Windows 10X, including a redesigned Start menu, the replacement of its 'live tiles' with a separate 'Widgets' panel on the taskbar, the ability to create tiled sets of windows that can be minimized and restored from the taskbar as a group, and new gaming technologies inherited from Xbox Series X and Series S such as Auto HDR and DirectStorage on compatible hardware. Internet Explorer (IE) has been replaced by the Chromium-based Microsoft Edge as the default web browser, like its predecessor, Windows 10, and Microsoft Teams is integrated into the Windows shell."
+    },
+
+
+
+    {
+      id : 105,
+      image : 'https://upload.wikimedia.org/wikipedia/en/3/3e/The_Magician%27s_Elephant_poster.jpg',
+      catagory : 'hollywoodt',
+      heading : 'THE MAGICIAN ELEPHANT',
+      description : "The Magician's Elephant is a 2023 animated fantasy adventure film directed by Wendy Rogers, written by Martin Hynes and produced by Julia Pistor. Based on the 2009 novel of the same name by Kate DiCamillo, the film features the voices of Noah Jupe, Mandy Patinkin, Natasia Demetriou, Benedict Wong, Miranda Richardson and Aasif Mandvi. Animated by Animal Logic, the film was distributed by Netflix and released on March 17, 2023."
+    },
+    {
+      id : 106,
+      image : 'https://upload.wikimedia.org/wikipedia/en/3/3e/The_Magician%27s_Elephant_poster.jpg',
+      catagory : 'hollywoodt',
+      heading : 'THE MAGICIAN ELEPHANT',
+      description : "The Magician's Elephant is a 2023 animated fantasy adventure film directed by Wendy Rogers, written by Martin Hynes and produced by Julia Pistor. Based on the 2009 novel of the same name by Kate DiCamillo, the film features the voices of Noah Jupe, Mandy Patinkin, Natasia Demetriou, Benedict Wong, Miranda Richardson and Aasif Mandvi. Animated by Animal Logic, the film was distributed by Netflix and released on March 17, 2023."
+    },
+
 
 
   ])
