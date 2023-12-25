@@ -1,9 +1,7 @@
 import React, { useContext } from 'react'
 import { Store } from '../Store/Store'
 import { NavLink } from 'react-router-dom'
-import image_4 from './image_4.jpg'
-import image13 from './image13.jpg'
-import image_hw from './image_hw.jpg'
+
 
 const Home = () => {
 
@@ -11,19 +9,14 @@ const Home = () => {
 
   return (
     <>
-      <div id='homeparent'>
-        <div id='lefthome'>
-          <img id='homeleftimg' src={image_hw} alt='not found' />
-        </div>
-        <div id='righthome'>
-          <div id='righthome1'>
-            <img className='homerightimg' src={image13} alt='not found' />
-          </div>
-          <div id='righthome2'>
-            <img className='homerightimg' src={image_4} alt='not found' />
-          </div>
-        </div>
+
+      <div className='newhomeimage'>
+        <div className='image homeimage1'></div>
+        <div className='image homeimage2'></div>
+        <div className='image homeimage3'></div>
       </div>
+
+
       <div className='homelatest'>
       <div className='toppost'>The Latest</div>
       <div className='hrline'></div>
@@ -54,8 +47,8 @@ const Home = () => {
 
       <div className='parentside'>
         <div className='leftchild'>
-          
-          {data.filter((data) => data.id % 18 === 0).map((item, index) => {
+          {/* if we give 18 it will give 4 different data  */}
+          {data.filter((data) => data.id % 9 === 0).map((item, index) => {
             return (
               <>
 
@@ -79,11 +72,13 @@ const Home = () => {
             )
           })}
         </div>
+
+
         <div className='righttchild'>
         <div className='homeadvertisement'>
             <img className='homeadvertimg' src='https://i.pinimg.com/736x/12/ff/fd/12fffdd0d71dd1151eec5751177ff662.jpg' alt='ad' />
           </div>
-          <div className='toppost'>Top Posts</div>
+          <div className='toppost hometoppost'>Top Posts</div>
           <div className='hrline'></div>
           <div>
             {data.filter((e) => e.catagory === 'bollywoodt' && e.topost === 'firsttop').map((item, index) => {
@@ -108,7 +103,7 @@ const Home = () => {
                 <hr />
                   <div className='smalltopost'>
                     <NavLink to={`/dynamic/${item.id}`}>
-                      <img className='imageheight tphwsmall' src={item.image} alt='not found' />
+                      <img className='imageheight tphwsmall imageheighthome' src={item.image} alt='not found' />
                     </NavLink>
                     <NavLink to={`/dynamic/${item.id}`}>
                       <h2 className='itemheading'>{item.heading}</h2>

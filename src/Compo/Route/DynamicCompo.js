@@ -17,7 +17,7 @@ const DynamicCompo = () => {
             <div key={index}>
                 <h1 id='dynmheading'>{item.heading}</h1>
                 <div id='dynmimgcenter'>
-                <img id='dynmimg' src={item.image} alt='not found' height={'100px'}/>
+                <img id='dynmimg' src={item.image} alt='not found'/>
                 </div>
                 <p id='dynmdesc'>{item.description}</p>
             </div>

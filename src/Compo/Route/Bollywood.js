@@ -38,14 +38,14 @@ const Bollywood = () => {
         <div className='righttchild'>
           <div className='toppost'>Top Posts</div>
           <div className='hrline'></div>
-          <div>
+          <div >
 
 
 
             {data.filter((e) => e.catagory === 'bollywoodt' && e.topost === 'firsttop').map((item, index) => {
               return (
                 <>
-                  <div>
+                  <div className='firstsmalltoppost'>
                     <NavLink to={`/dynamic/${item.id}`}>
                       <img className='imageheight tphw' src={item.image} alt='not found' />
                       <h2 className='itemheading'>{item.heading}</h2>
@@ -76,7 +76,7 @@ const Bollywood = () => {
           </div>
           <div className='advertisement'>
             <img className='advertimg' src='https://i.pinimg.com/736x/12/ff/fd/12fffdd0d71dd1151eec5751177ff662.jpg' alt='ad' />
-          <img className='advertimg2' src='https://dr-vfx.com/wp-content/uploads/2022/09/How-to-make-a-product-video-like-apple.jpg' alt='not found'/>
+            <img className='advertimg2' src='https://dr-vfx.com/wp-content/uploads/2022/09/How-to-make-a-product-video-like-apple.jpg' alt='not found' />
           </div>
 
         </div>

@@ -40,14 +40,14 @@ const Food = () => {
         <div className='righttchild'>
           <div className='toppost'>Top Posts</div>
           <div className='hrline'></div>
-          <div>
+          <div >
 
 
 
             {data.filter((e) => e.catagory === 'foodt' && e.topost === 'firsttop').map((item, index) => {
               return (
                 <>
-                  <div>
+                  <div className='firstsmalltoppost'>
                     <NavLink to={`/dynamic/${item.id}`}>
                       <img className='imageheight tphw' src={item.image} alt='not found' />
                       <h2 className='itemheading'>{item.heading}</h2>
