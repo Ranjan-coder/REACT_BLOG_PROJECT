@@ -32,7 +32,7 @@ const Hollywood = () => {
                     <NavLink to={`/dynamic/${item.id}`}>
                       <h2 className='itemheading'>{item.heading}</h2>
                     </NavLink>
-                    <p className='itemdesc'>{item.description.slice(0, 130)}...</p>
+                    <p className='itemdesc'>{item.description.slice(0, 120)}...</p>
                   </div>
                 </div>
 

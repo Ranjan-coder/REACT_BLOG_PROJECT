@@ -19,7 +19,7 @@ const DataCompo = (props) => {
     {
       id : 2,
       image : 'https://resizing.flixster.com/jrlUfiu7cKhfn6vpqqsmzNVR9nM=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzU2ZDU2MDQ1LTYzZmUtNDA4Yy1hMzNhLTQxMWI0NzE0ZjEwOC5qcGc=',
-      heading : 'TIGER NAGESWARA RAO',
+      heading : 'NAGESWARA RAO',
       catagory : 'bollywood',
       description : "During the 1970s, Tiger Nageswara Rao is a thief who dominates the realm of terror in Stuartpuram and also masterminds a series of daring heists, where his ingenious methods of outwitting the cops become the stuff of local legend. The rest of the story revolves around Tiger's thrilling escapades and captivating cat-and-mouse game between him and the cops."
     },
@@ -101,7 +101,7 @@ const DataCompo = (props) => {
       id: 11,
       image : 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTYyaCMGIDqOrnfFiXD5Wj3--gOX6aYjvtE-DKc3ym6Wyr_UQqH',
       catagory : 'hollywood',
-      heading : 'ANT-MAN AND THE WASP',
+      heading : 'ANTMAN-WASP',
       description : "Ant-Man and the Wasp: Quantumania is a 2023 American superhero film based on Marvel Comics featuring the characters Scott Lang / Ant-Man and Hope Pym / Wasp. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the sequel to Ant-Man (2015) and Ant-Man and the Wasp (2018), and the 31st film in the Marvel Cinematic Universe (MCU). It was directed by Peyton Reed, written by Jeff Loveness, and stars Paul Rudd as Scott Lang and Evangeline Lilly as Hope van Dyne, alongside Jonathan Majors, Kathryn Newton, David Dastmalchian, Katy O'Brian, William Jackson Harper, Bill Murray, Michelle Pfeiffer, Corey Stoll, and Michael Douglas. In the film, Lang, Van Dyne, and their family are accidentally transported to the Quantum Realm and face off against Kang the Conqueror (Majors).",
     },
     {
@@ -174,7 +174,7 @@ const DataCompo = (props) => {
       id: 19,
       image : 'https://as1.ftcdn.net/v2/jpg/06/52/92/86/1000_F_652928671_wVsY8vrqc6fPyJ2LeF0LU014FaHKaNkN.jpg',
       catagory : 'fitness',
-      heading : 'BODY WEIGHT EXERCISE',
+      heading : 'BODY WEIGHT',
       description : "It is entirely possible to build muscle without weights with several studies supporting the efficacy of bodyweight exercises. Bodyweight exercises are a form of resistance training, therefore they can stimulate the muscles to adapt, get strong and grow. Muscle growth 'can occur independent of an external load', research published in Physiology & Behaviour concluded, as long as you perform bodyweight exercises through their full range of motion.A study published in the Journal of Exercise Science & Fitness investigated the effect of press-up training with a similar load of to 40% of 1- rep max bench press on muscle hypertrophy and strength gain in 18 male participants. After an 8 week training period, press-up exercise with similar load to bench press were found to be comparably effective for muscle and strength gain. So if the bench is busy and you've found yourself at a loose end, hitting the floor for bodyweight exercises could be just as effective.",
     },
     {
@@ -195,7 +195,7 @@ const DataCompo = (props) => {
       id: 22,
       image : 'https://cdn.shopify.com/s/files/1/0268/0818/9012/files/RFST-RKST-10200_media-10_600x600.jpg?v=1632276070',
       catagory : 'fitness',
-      heading : 'BARBELL BACK SQUAT',
+      heading : 'BARBELL SQUAT',
       description : 'It wouldn’t be a leg workout guide without squats. The barbell back squat will elevate your squat game by strengthening not only the quadriceps, hamstrings and glutes but also the ligaments around the knees and hips. This compound exercise uses multiple muscles to perform a full body move to build strength. The best and safest way to perform a Barbell Back Squat is with a squat stand to easily secure the bar as you move it on and off your shoulders.',
     },
     {
@@ -254,7 +254,7 @@ const DataCompo = (props) => {
       id: 30,
       image : 'https://media.istockphoto.com/id/1452604857/photo/businessman-touching-the-brain-working-of-artificial-intelligence-automation-predictive.jpg?s=612x612&w=0&k=20&c=GkAOxzduJbUKpS2-LX_l6jSKtyhdKlnPMo2ito4xpR4=',
       catagory : 'technology',
-      heading : 'ARTIFICIAL INTELLIGENCE ( AI ) AND MACHINE LEARNING',
+      heading : 'ARTIFICIAL INTELLIGENCE',
       description : "Artificial Intelligence, or AI, has already received a lot of buzz in the past decade. Still, it continues to be one of the new technology trends because of its notable effects on how we live, work and play are only in the early stages. AI is already known for its superiority in image and speech recognition, navigation apps, smartphone personal assistants, ride-sharing apps and so much more.Other than that, AI will be used further to analyze interactions to determine underlying connections and insights, to help predict demand for services like hospitals enabling authorities to make better decisions about resource utilization, and to detect the changing patterns of customer behaviour by analyzing data in near real-time, driving revenues and enhancing personalized experiences. With AI spreading its wings across sectors, new jobs will be created in development, programming, testing, support and maintenance, to name a few. On the other hand AI also offers some of the highest salaries today!Machine Learning the subset of AI, is also being deployed in all kinds of industries, creating a huge demand for skilled professionals. Forrester predicts AI, machine learning, and automation will create 9 percent of new U.S. jobs by 2025, jobs including robot monitoring professionals, data scientists, automation specialists, and content curators, making it another new technology trend you must keep in mind too!",
     },
     // {
@@ -496,7 +496,7 @@ const DataCompo = (props) => {
       id : 100,
       image : 'https://upload.wikimedia.org/wikipedia/en/3/3e/The_Magician%27s_Elephant_poster.jpg',
       catagory : 'hollywoodt',
-      heading : 'THE MAGICIAN ELEPHANT',
+      heading : 'THE ELEPHANT',
       description : "The Magician's Elephant is a 2023 animated fantasy adventure film directed by Wendy Rogers, written by Martin Hynes and produced by Julia Pistor. Based on the 2009 novel of the same name by Kate DiCamillo, the film features the voices of Noah Jupe, Mandy Patinkin, Natasia Demetriou, Benedict Wong, Miranda Richardson and Aasif Mandvi. Animated by Animal Logic, the film was distributed by Netflix and released on March 17, 2023."
     },
     {

@@ -1,9 +1,9 @@
 *{
   box-sizing: border-box;
 }
-body{
+/* body{
   background-color: #000435;
-}
+} */
 #siren{
   display: flex;
   justify-content: center;
@@ -12,9 +12,9 @@ body{
 }
 #rotate{
   transform: rotate(-90deg);
-  font-size: 15px;
+  font-size: 19px;
   font-weight: 90px;
-  color: aliceblue;
+  color: #2f046f;;
 }
 #sirentext{
   font-size: xx-large;
@@ -24,7 +24,7 @@ body{
 .toppost {
   font-size: larger;
   font-weight: 500;
-  color: aliceblue;
+  /* color: aliceblue; */
 }
 .hometoppost{
   margin-top: 30px;
@@ -51,16 +51,16 @@ body{
 }
 .homeadvertisement, .homeadvertimg{
   height: 105vh;
-  width: 450px;
+  width: 95vh;
 }
 
 .advertimg{
   height: 500px;
-  width: 450px;
+  width: 95vh;
 
 }
 .advertimg2{
-  width: 450px;
+  width: 95vh;
   height: 345px;
 
 }
@@ -139,7 +139,8 @@ a{
 
 .parentside{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 5vh;
 }
 .parentcontent{
   margin: 5px;
@@ -160,7 +161,7 @@ a{
 }
 .itemheading{
   margin: 0;
-  color: aliceblue;
+  /* color: aliceblue; */
   padding: 0;
   /* width: ; */
   box-sizing: border-box;
@@ -170,11 +171,16 @@ a{
   color: red;
 }
 .itemdesc{
-  color: yellow;
+  /* color: yellow; */
 
 }
-.leftchild,.rightchild{
-  width: 50%;
+.leftchild{
+  width: 105vh;
+  /* width: 50%; */
+}
+.righttchild{
+  width: 95vh;
+  /* width: 50%; */
 }
 .tphw{
   width: 452px;
@@ -362,7 +368,7 @@ a{
   }
   
   .bm-burger-bars {
-    background: #dde0f0;
+    background: #8e9df1;
   }
   
   .bm-burger-bars-hover {
@@ -477,31 +483,53 @@ a{
 /* tab mediaquery  */
 
  @media screen and (max-width:1000px) and (min-width: 768px) {
-  .parentside{
-    flex-direction: column;
-  }
-  .leftchild, .righttchild {
-    width: 100%;
+.imageheight {
+  width: 15vh;
 }
-.singletoppostb{
-  display: flex;
+.tphw {
+  width: 98%;
+  height: 19vh;
 }
-.advertisement{
-  display: flex;
-  width: 100%;
-  height: 35vh;
+.advertisement {
+  width: 98%;
+  /* height: 88vh; */
+  height: 93vh;
 }
 .advertimg {
-  height: 35vh;
-  width: 37vh;
+  /* height: 50vh; */
+  height: 54vh;
+  width: 98%;
 }
 .advertimg2 {
-  height: 35vh;
-  width: 38vh;
+  height: 38vh;
+  width: 98%;
 }
 .footerbgc {
   margin-top: 10px;
 }
-
+.newhomeimage {
+  display: grid;
+  grid-template-columns: 41vh 25vh;
+  grid-template-rows: 25vh 25vh;
+  gap: 2vh;
+  justify-content: center;
+  padding: 2vh;
+}
+.homeadvertisement, .homeadvertimg {
+  height: 75vh;
+  width: 33vh;
+}
+.homelatest {
+  left: 3vh;
+}
+/* .itemheading {
+  text-align: center;
+} */
+#homedatacontent{
+  width: 20vh;
+}
+.descriptionwidth {
+  width: 21vh;
+}
 
 } 
