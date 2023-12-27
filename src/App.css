@@ -25,6 +25,7 @@
   font-size: larger;
   font-weight: 500;
   /* color: aliceblue; */
+  width: max-content;
 }
 .hometoppost{
   margin-top: 30px;
@@ -68,7 +69,7 @@
 #navlink{
   align-items: center;
   background-color: #f8f9f9;
-  border-bottom: 2px solid #b1b1ef;
+  border-bottom: 2px solid #a4a4f4;
   border-radius: 5px;
   box-shadow: 3px 3px 5px #787575;
   display: flex;
@@ -413,7 +414,7 @@ a{
   /* _____________________________________________________ */
   .newhomeimage{
     display: grid;
-    grid-template-columns: 50vh;
+    grid-template-columns: 45vh;
     grid-template-rows: repeat(3 , 35vh);
 
   }
@@ -448,6 +449,8 @@ a{
     width: 45vh;
     height: 25vh;
     border-radius: 15px;
+    display: flex;
+    margin: auto;
 }
 
 
@@ -476,7 +479,23 @@ a{
     flex-direction: column;
     align-items: center;
 }
-
+.homeadvertisement, .homeadvertimg {
+  height: 55vh;
+  width: 45vh;
+  margin: auto;
+}
+.homelatest{
+  left: 3vh;
+  width: 10vh;
+}
+#homedata{
+  flex-direction: column;
+  align-items: center;
+}
+.itemheading{
+  display: flex;
+  /* justify-content: center; */
+}
   }
 
 
@@ -518,6 +537,7 @@ a{
 .homeadvertisement, .homeadvertimg {
   height: 75vh;
   width: 33vh;
+  
 }
 .homelatest {
   left: 3vh;
